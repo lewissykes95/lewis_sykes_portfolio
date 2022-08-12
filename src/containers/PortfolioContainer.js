@@ -1,5 +1,5 @@
 import React from "react";
-import styled from "styled-components";
+import PortfolioTitle from "../components/Title";
 
 
 const PortfolioContainter = () => {
@@ -9,7 +9,7 @@ const PortfolioContainter = () => {
 
         <>
 
-            <Title>Lewis Sykes Portfolio</Title>
+           <PortfolioTitle/>
             
         </>
 
@@ -19,7 +19,3 @@ const PortfolioContainter = () => {
 
 export default PortfolioContainter;
 
-const Title = styled.h1`
-font-family: 'Times New Roman', Times, serif;
-color: aqua;
-`
