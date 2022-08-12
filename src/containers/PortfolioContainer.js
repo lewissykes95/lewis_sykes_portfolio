@@ -8,8 +8,8 @@ const PortfolioContainter = () => {
 
         <>
 
-            <h1>Lewis Sykes Portfolio</h1>
-
+            <Title>Lewis Sykes Portfolio</Title>
+            
         </>
 
 
@@ -17,3 +17,8 @@ const PortfolioContainter = () => {
 }
 
 export default PortfolioContainter;
+
+const Title = styled.h1`
+font-family: 'Times New Roman', Times, serif;
+color: aqua;
+`
