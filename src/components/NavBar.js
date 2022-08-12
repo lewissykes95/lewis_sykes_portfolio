@@ -10,9 +10,9 @@ const NavBar = () => {
         <>
             <Nav>
                 <List>
-                    <Items>Home</Items>
-                    <Items>Projects</Items>
-                    <Items>About Me</Items>
+                    <Items href="">Home</Items>
+                    <Items href="">Projects</Items>
+                    <Items href="">About Me</Items>
                 </List>
             </Nav>
         
@@ -30,11 +30,9 @@ list-style: none;
 justify-content: flex-start;
 background-color: grey;
 `
-
 const List = styled.ul`
 display: flex;
 `
-
 const Items = styled.a`
 list-style: none;
 padding-right: 20px;
