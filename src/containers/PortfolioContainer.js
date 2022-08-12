@@ -1,5 +1,6 @@
 import React from "react";
 import PortfolioTitle from "../components/Title";
+import NavBar from "../components/NavBar";
 
 
 const PortfolioContainter = () => {
@@ -8,7 +9,7 @@ const PortfolioContainter = () => {
     return (
 
         <>
-
+            <NavBar/>
            <PortfolioTitle/>
             
         </>
