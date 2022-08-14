@@ -9,7 +9,7 @@ const NavBar = () => {
 
         <>
             <Nav>
-                <Title>Lewis Sykes</Title>
+                <a href=""><Home src="https://cdn-icons-png.flaticon.com/512/25/25694.png"></Home></a>
                 <List>
                     <Items href="">Projects</Items>
                     <Items href="">About Me</Items>
@@ -31,22 +31,18 @@ list-style: none;
 background-image: linear-gradient(to bottom, #635ad9 , white);
 `
 
-const Title = styled.a`
+const Home = styled.img`
 position: relative;
 top: 10px;
-font-size: 20px;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-list-style: none;
 text-decoration: none;
 color: purple;
 margin-left: 30px;
-text-shadow: 0px 0.5px 0px purple;
-padding-right: 20px;
+width: 30px;
 &:hover {
-    color: white;
-    text-shadow: 0px 2px 10px purple;
+    transform: scale(1.1);
     cursor: pointer;
   }
+
 
 `
 
@@ -56,10 +52,12 @@ display: flex;
 `
 const Items = styled.a`
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-size: 18px;
 list-style: none;
 text-decoration: none;
 color: purple;
-margin-left: 30px;
+margin-left: 10px;
+margin-right: 30px;
 text-shadow: 0px 0.5px 0px purple;
 padding-right: 20px;
 &:hover {

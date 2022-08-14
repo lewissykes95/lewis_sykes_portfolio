@@ -13,7 +13,8 @@ const ProjectSelect = ({ projects, onProjectSelected }) => {
 
     return (
         <>
-        
+        <Form>
+
         <Select defaultValue="" onChange = { handleChange } >
         <Option value = "" disabled > Choose Project </Option> {
             projects.map(project => {
@@ -21,7 +22,14 @@ const ProjectSelect = ({ projects, onProjectSelected }) => {
                 )
             })
         }
+
         </Select>
+        <Button type="submit" value="Go to Project"/>
+
+
+        </Form>
+        
+     
         
         </>
     );
@@ -32,24 +40,41 @@ const ProjectSelect = ({ projects, onProjectSelected }) => {
 export default ProjectSelect; 
 
 
-const Select = styled.select`
+const Form = styled.form`
 position: relative;
 top: 400px;
-right: 310px;
+right: 390px;
+`
+
+const Select = styled.select`
+text-align: center;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 color: purple;
 width: 150px;
 height: 30px;
 border-radius: 15px;
 border: 1px purple solid;
-
-
-
 `
 
 
 const Option = styled.option``
 
+
+
+const Button = styled.input`
+margin-left: 10px;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+color: purple;
+width: 100px;
+height: 30px;
+border-radius: 15px;
+border: 1px purple solid;
+&:hover {
+    background-color: purple;
+    color: white;
+    cursor: pointer;
+  }
+`
 
 
 

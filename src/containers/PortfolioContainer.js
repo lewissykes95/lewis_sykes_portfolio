@@ -5,6 +5,7 @@ import NavBar from "../components/NavBar";
 import ProfileImage from "../components/ProfileImage";
 import SocialIcons from "../components/SocialIcons";
 import ProjectSelect from "../components/Select";
+import Footer from "../components/Footer";
 
 
 const PortfolioContainter = () => {
@@ -37,6 +38,7 @@ const PortfolioContainter = () => {
                 </Info>
                 <ProfileImage/>
             </Section>
+            <Footer/>
         </>
 
 
