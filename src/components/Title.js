@@ -8,7 +8,6 @@ const PortfolioTitle = () => {
     return(
 
         <>
-        
             <Title>Lewis Sykes Portfolio</Title>
             <About>I am a Junior Software Developer from Edinburgh</About>
             <Skills>
@@ -20,11 +19,8 @@ const PortfolioTitle = () => {
             <Frameworks>
                 <Items>Flask</Items>
                 <Items>React</Items>
-            </Frameworks>
-            
+            </Frameworks>     
         </>
-
-
 
     );
 }

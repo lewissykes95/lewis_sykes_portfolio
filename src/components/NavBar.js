@@ -13,6 +13,7 @@ const NavBar = () => {
                     <Items href="">Lewis Sykes</Items>
                     <Items href="">Projects</Items>
                     <Items href="">About Me</Items>
+                    <Items href="">Contact Me</Items>
                 </List>
             </Nav>
          
