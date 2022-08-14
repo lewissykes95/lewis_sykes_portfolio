@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/lewis_sykes_portfolio/static/css/main.073c9b0a.css",
-    "main.js": "/lewis_sykes_portfolio/static/js/main.943929e7.js",
+    "main.js": "/lewis_sykes_portfolio/static/js/main.9145b7ac.js",
     "static/js/787.0f03db5b.chunk.js": "/lewis_sykes_portfolio/static/js/787.0f03db5b.chunk.js",
     "static/media/profile-image.jpeg": "/lewis_sykes_portfolio/static/media/profile-image.041d12922b184f1428ae.jpeg",
     "index.html": "/lewis_sykes_portfolio/index.html",
     "main.073c9b0a.css.map": "/lewis_sykes_portfolio/static/css/main.073c9b0a.css.map",
-    "main.943929e7.js.map": "/lewis_sykes_portfolio/static/js/main.943929e7.js.map",
+    "main.9145b7ac.js.map": "/lewis_sykes_portfolio/static/js/main.9145b7ac.js.map",
     "787.0f03db5b.chunk.js.map": "/lewis_sykes_portfolio/static/js/787.0f03db5b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.943929e7.js"
+    "static/js/main.9145b7ac.js"
   ]
 }
