@@ -30,7 +30,7 @@ const Icons = styled.div``
 
 const Items = styled.img`
 position: relative;
-bottom: 250px;
+bottom: 240px;
 left: 80px;
 margin: 10px;
 width: 30px;

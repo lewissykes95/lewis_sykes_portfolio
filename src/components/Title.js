@@ -11,7 +11,7 @@ const PortfolioTitle = () => {
         <Section>
 
         <Title>Lewis Sykes | Junior Software Developer.</Title>
-            <About>A Software Developer that has a passion to create...</About>
+            <About>A Software Developer with a passion to create...</About>
             <Skills>
                 <Items></Items>
                 <Items></Items>
@@ -42,17 +42,12 @@ const Title = styled.h1`
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 color: white;
 text-shadow: 0px 1px 5px purple;
-/* position: relative;
-right: 30%;
-top: 50%; */
-
 `
 
 const About = styled.h3`
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 color: purple;
 position: relative;
-/* right: 30%; */
 `
 
 const Skills = styled.div``

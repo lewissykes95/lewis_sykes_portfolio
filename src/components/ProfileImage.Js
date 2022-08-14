@@ -21,7 +21,6 @@ export default ProfileImage;
 
 
 const Image = styled.img`
-margin-top: 20px;
 margin-right: 120px;
 width: 480px;
 height: 600px;
