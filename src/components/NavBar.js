@@ -10,13 +10,12 @@ const NavBar = () => {
         <>
             <Nav>
                 <List>
-                    <Items href="">Home</Items>
+                    <Items href="">Lewis Sykes</Items>
                     <Items href="">Projects</Items>
                     <Items href="">About Me</Items>
                 </List>
             </Nav>
-        
-        
+         
         </>
     );
 }
