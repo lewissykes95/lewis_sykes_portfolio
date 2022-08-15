@@ -9,8 +9,12 @@ const ProfileImage = () => {
     return (
 
         <>
+            <Section>
 
-            <Image src = {require('./profile-image.jpeg')} /> 
+                <Image src = {require('./profile-image.jpeg')} /> 
+
+            </Section>
+           
         
         </>
 
@@ -31,5 +35,7 @@ border: 2px purple solid;
     transform: scale(0.99);
   }
 `
+
+const Section = styled.div``
 
 

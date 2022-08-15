@@ -12,7 +12,6 @@ const NavBar = () => {
                 <a href=""><Home src="https://cdn-icons-png.flaticon.com/512/25/25694.png"></Home></a>
                 <List>
                     <Items href="">Projects</Items>
-                    <Items href="">About Me</Items>
                     <Items href="">Contact Me</Items>
                 </List>
             </Nav>
