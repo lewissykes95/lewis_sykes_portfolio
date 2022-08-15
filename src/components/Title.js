@@ -10,7 +10,7 @@ const PortfolioTitle = () => {
         <>
         <Section>
 
-        <Title>Lewis Syke | Junior Software Developer.</Title>
+        <Title>Lewis Sykes | Junior Software Developer.</Title>
             <About>A Software Developer with a passion to create...</About>
             <Skills>
                 <Items></Items>
