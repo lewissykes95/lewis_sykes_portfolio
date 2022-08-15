@@ -2,7 +2,7 @@
   "name": "lewis_sykes_portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lewissykes95.github.io/lewis_sykes_portfolio",
+  "homepage": "https://lewissykes.com",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.1.2",
     "@fortawesome/free-regular-svg-icons": "^6.1.2",
