@@ -25,7 +25,10 @@ export default ProfileImage;
 
 
 const Image = styled.img`
+display: flex;
+margin-top: 20px;
 margin-right: 150px;
+margin-left:20px;
 width: 500px;
 height: 600px;
 border-radius: 30px;

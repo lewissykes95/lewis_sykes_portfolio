@@ -31,11 +31,11 @@ const PortfolioContainter = () => {
 
         <>
             <NavBar/>
-            <ProjectSelect projects={projects} onProjectSelected={handleProjectSelected}/>
             <Section>
                 <Info>
                     <PortfolioTitle/>
                     <SocialIcons/>
+                    <ProjectSelect projects={projects} onProjectSelected={handleProjectSelected}/>
                 </Info>
                 <ProfileImage/>
             </Section>
@@ -51,11 +51,14 @@ export default PortfolioContainter;
 
 const Section = styled.div`
 display: flex;
+flex-wrap: wrap;
 justify-content: space-between;
 
 `
 const Info = styled.div`
 display: flex;
-justify-content: space-between;
+justify-content: center;
+align-items: center;
 flex-direction: column;
+margin-left: 70px;
 `

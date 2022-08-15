@@ -12,7 +12,7 @@ const PortfolioTitle = () => {
 
         <Title>Lewis Sykes | Junior Software Developer.</Title>
             <About>A Software Developer with a passion to create...</About>
-            <Skills>
+            {/* <Skills>
                 <Items></Items>
                 <Items></Items>
                 <Items></Items>
@@ -21,7 +21,7 @@ const PortfolioTitle = () => {
             <Frameworks>
                 <Items></Items>
                 <Items></Items>
-            </Frameworks>   
+            </Frameworks>    */}
         </Section>
             
         </>
@@ -33,9 +33,6 @@ const PortfolioTitle = () => {
 export default PortfolioTitle;
 
 const Section = styled.div`
-position: relative;
-top: 200px;
-left: 100px;
 `
 
 const Title = styled.h1`
@@ -47,7 +44,6 @@ text-shadow: 0px 1px 5px purple;
 const About = styled.h3`
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 color: purple;
-position: relative;
 `
 
 const Skills = styled.div``
@@ -58,6 +54,5 @@ const Frameworks = styled.div``
 
 const Items = styled.h4`
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-position: relative;
-/* right: 30%; */
+
 `

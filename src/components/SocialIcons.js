@@ -26,14 +26,14 @@ const SocialIcons = () => {
 export default SocialIcons;
 
 
-const Icons = styled.div``
+const Icons = styled.div`
+display: flex;
+
+`
 
 
 const Items = styled.img`
-position: relative;
-bottom: 240px;
-left: 80px;
-margin: 10px;
+margin-right: 10px;
 width: 30px;
 &:hover {
     transform: scale(1.1);
@@ -43,10 +43,8 @@ width: 30px;
 `
 
 const CV = styled.button`
-position: relative;
-bottom: 260px;
-left: 80px;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin-right: 10px;
 color: purple;
 width: 100px;
 height: 30px;

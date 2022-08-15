@@ -41,14 +41,15 @@ export default ProjectSelect;
 
 
 const Form = styled.form`
-position: relative;
-top: 400px;
-right: 390px;
+display: flex;
+margin: 20px;
+
 `
 
 const Select = styled.select`
 text-align: center;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin: 10px;
 color: purple;
 width: 150px;
 height: 30px;
@@ -62,8 +63,8 @@ const Option = styled.option``
 
 
 const Button = styled.input`
-margin-left: 10px;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+margin: 10px;
 color: purple;
 width: 100px;
 height: 30px;
