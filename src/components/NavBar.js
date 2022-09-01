@@ -13,7 +13,7 @@ const NavBar = () => {
             <Nav>
                 <a href=""><Home src="https://cdn-icons-png.flaticon.com/512/25/25694.png"></Home></a>
                 <List>
-                    <Items path="/Projects" element={< Projects />} >Projects</Items>
+                    <Items  href="https://github.com/lewissykes95" path="/Projects" element={< Projects />} >Projects</Items>
                     <Items href="">Contact Me</Items>
                 </List>
             </Nav>

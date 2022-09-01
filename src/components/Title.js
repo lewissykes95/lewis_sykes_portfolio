@@ -12,18 +12,6 @@ const PortfolioTitle = () => {
 
         <Title>Lewis Sykes | Junior Software Developer.</Title>
             <About>A Software Developer with a passion to create...</About>
-           
-           
-            {/* <Skills>
-                <Items></Items>
-                <Items></Items>
-                <Items></Items>
-            </Skills>
-
-            <Frameworks>
-                <Items></Items>
-                <Items></Items>
-            </Frameworks>    */}
         </Section>
             
         </>
