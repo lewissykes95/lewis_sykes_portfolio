@@ -11,10 +11,6 @@ const ProjectSelect = ({ projects, onProjectSelected }) => {
         onProjectSelected(event.target.value)
     }
 
-
-
-
-
     return (
         <>
         <Form>
@@ -49,6 +45,8 @@ export default ProjectSelect;
 
 
 const Form = styled.form`
+position: relative;
+right: 5px;
 display: flex;
 margin: 20px;
 
@@ -56,7 +54,7 @@ margin: 20px;
 
 const Select = styled.select`
 text-align: center;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-family: 'M PLUS 1 Code', sans-serif;
 margin: 10px;
 color: purple;
 width: 150px;
@@ -71,7 +69,7 @@ const Option = styled.option``
 
 
 const Button = styled.input`
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-family: 'M PLUS 1 Code', sans-serif;
 margin: 10px;
 color: purple;
 width: 100px;

@@ -38,14 +38,14 @@ const Section = styled.div`
 `
 
 const Title = styled.h1`
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-family: 'M PLUS 1 Code', sans-serif;
 color: white;
 text-shadow: 0px 1px 5px purple;
 `
 
 const About = styled.h3`
 text-align: center;
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-family: 'M PLUS 1 Code', sans-serif;
 color: purple;
 `
 
@@ -56,6 +56,6 @@ const Frameworks = styled.div``
 
 
 const Items = styled.h4`
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-family: 'M PLUS 1 Code', sans-serif;
 
 `

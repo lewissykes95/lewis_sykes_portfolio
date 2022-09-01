@@ -45,7 +45,7 @@ width: 30px;
 `
 
 const CV = styled.button`
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-family: 'M PLUS 1 Code', sans-serif;
 margin-right: 10px;
 color: purple;
 width: 100px;

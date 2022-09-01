@@ -54,7 +54,7 @@ display: flex;
 
 `
 const Items = styled.a`
-font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+font-family: 'M PLUS 1 Code', sans-serif;
 font-size: 18px;
 list-style: none;
 text-decoration: none;
