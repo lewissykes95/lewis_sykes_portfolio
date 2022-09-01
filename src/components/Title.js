@@ -12,6 +12,8 @@ const PortfolioTitle = () => {
 
         <Title>Lewis Sykes | Junior Software Developer.</Title>
             <About>A Software Developer with a passion to create...</About>
+           
+           
             {/* <Skills>
                 <Items></Items>
                 <Items></Items>
@@ -42,6 +44,7 @@ text-shadow: 0px 1px 5px purple;
 `
 
 const About = styled.h3`
+text-align: center;
 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 color: purple;
 `

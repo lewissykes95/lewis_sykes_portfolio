@@ -1,5 +1,7 @@
 import React from "react";
 import styled from "styled-components";
+import Projects from "./Projects";
+
 
 
 const NavBar = () => {
@@ -11,12 +13,14 @@ const NavBar = () => {
             <Nav>
                 <a href=""><Home src="https://cdn-icons-png.flaticon.com/512/25/25694.png"></Home></a>
                 <List>
-                    <Items href="">Projects</Items>
+                    <Items path="/Projects" element={< Projects />} >Projects</Items>
                     <Items href="">Contact Me</Items>
                 </List>
             </Nav>
          
         </>
+
+
     );
 }
 

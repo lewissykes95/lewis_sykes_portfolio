@@ -11,21 +11,20 @@ import Footer from "../components/Footer";
 const PortfolioContainter = () => {
 
 
-    const [projects, setProjects] = useState([
-        {name: 'Python Project', url:""},
-        {name: 'JavaScript Project', url:""},
+    const [title, setTitle] = useState("")
+
+    const projects = [
+        {name: 'Python Project', url:"https://github.com/lewissykes95/travel_app_project"},
+        {name: 'JavaScript Project', url:"https://github.com/Naefunn/JS_Flag_Project"},
         {name: 'Java Project', url:""}
-    ])
+    ]
 
     const [selectedProject, setSelectedProject] = useState('')
 
 
-    
     const handleProjectSelected = name => {
         setSelectedProject(name)
       }
-
-
 
     return (
 

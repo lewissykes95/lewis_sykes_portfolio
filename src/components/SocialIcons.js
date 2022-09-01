@@ -14,7 +14,7 @@ const SocialIcons = () => {
                 <CV type="button">CV</CV>
                 <a href="https://www.instagram.com/lewissykes95/"><Items src="https://cdn-icons-png.flaticon.com/512/87/87390.png"/></a>
                 <a href="https://www.linkedin.com/in/lewis-sykes-b6979b115/"><Items src="https://cdn-icons-png.flaticon.com/512/25/25320.png"/></a>
-                <a href=""><Items src="https://cdn-icons-png.flaticon.com/512/25/25231.png"/></a>
+                <a href="https://github.com/lewissykes95"><Items src="https://cdn-icons-png.flaticon.com/512/25/25231.png"/></a>
 
                 
             </Icons>
@@ -33,7 +33,6 @@ const Icons = styled.div`
 display: flex;
 
 `
-
 
 const Items = styled.img`
 margin-right: 10px;
