@@ -1,16 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.4741e522.css",
-    "main.js": "/static/js/main.8ff7c52e.js",
+    "main.css": "/static/css/main.37a9d960.css",
+    "main.js": "/static/js/main.8674b135.js",
     "static/js/787.0f03db5b.chunk.js": "/static/js/787.0f03db5b.chunk.js",
+    "static/media/homepage.png": "/static/media/homepage.fadfc1127592acd80c11.png",
+    "static/media/adddestination.png": "/static/media/adddestination.07934cb890c37baac2d9.png",
+    "static/media/jelly.png": "/static/media/jelly.18629a2ffd6aba3c5374.png",
+    "static/media/pool.png": "/static/media/pool.db7fa061d25ae06dafc1.png",
+    "static/media/swap.png": "/static/media/swap.3e4d334631d072107a0b.png",
+    "static/media/rj.png": "/static/media/rj.107aa29849dd205d32ee.png",
+    "static/media/page2.png": "/static/media/page2.f4fe3e8660d8e93e90fb.png",
+    "static/media/updatedestination.png": "/static/media/updatedestination.c721bbd40b80ede5bcb3.png",
+    "static/media/addguest.png": "/static/media/addguest.3a557d3bf832321e85a0.png",
     "static/media/profile-image.jpeg": "/static/media/profile-image.041d12922b184f1428ae.jpeg",
+    "static/media/USAhome.png": "/static/media/USAhome.df44b9598d969fe51f30.png",
+    "static/media/homepagejs.png": "/static/media/homepagejs.63d82d3a2b992a3704d2.png",
+    "static/media/quiz.png": "/static/media/quiz.24a7ba954ca8678baa7c.png",
     "index.html": "/index.html",
-    "main.4741e522.css.map": "/static/css/main.4741e522.css.map",
-    "main.8ff7c52e.js.map": "/static/js/main.8ff7c52e.js.map",
+    "main.37a9d960.css.map": "/static/css/main.37a9d960.css.map",
+    "main.8674b135.js.map": "/static/js/main.8674b135.js.map",
     "787.0f03db5b.chunk.js.map": "/static/js/787.0f03db5b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4741e522.css",
-    "static/js/main.8ff7c52e.js"
+    "static/css/main.37a9d960.css",
+    "static/js/main.8674b135.js"
   ]
 }
